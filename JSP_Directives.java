@@ -42,3 +42,23 @@ Today is: <%= java.util.Calendar.getInstance().getTime() %>
 </html> 
 
 // ab header.html file m jo bhi banaynge vo is jsp m bhi include hokr run hoga.
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+// Taglib directive
+It is used when we want to use other tag library  in our JSP Page succh as JSTL.
+  
+  Syntax JSP Taglib directive
+<%@ taglib uri="uriofthetaglibrary" prefix="prefixoftaglibrary" %>  
+Example of JSP Taglib directive
+In this example, we are using our tag named currentDate. To use this tag we must specify the taglib directive so the container may get information about the tag.
+
+<html>  
+<body>  
+  
+<%@ taglib uri="http://www.javatpoint.com/tags" prefix="mytag" %>  
+  
+<mytag:currentDate/>  
+  
+</body>  
+</html>  
