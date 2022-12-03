@@ -91,4 +91,7 @@ public class MyTagHandler extends TagSupport{
 </html>
 
 
+//O/P
 
+Hello World!
+Hello this is my custom tag from tag handler
